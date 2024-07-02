@@ -16,7 +16,8 @@ A.I. tools can be used for:
 - code navigation  
 - writing test code  
 - generating documentation  
-- parallelizing code  
+- parallelizing code
+- IDE integration with code completion
 
 ## Pros and Cons of A.I. versus conventional coding
 
