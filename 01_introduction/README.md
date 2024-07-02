@@ -27,3 +27,9 @@ When should a researcher expect to write their own code?
 What are the limitations of LLMs for software engineering?
 
 What does the future look like?
+
+## Responsibility
+
+What if a researcher publishes their results using A.I. generated code that has a bug?
+
+## Security
