@@ -30,7 +30,22 @@ To use Copilot, users must sign in to [Copilot](https://copilot.microsoft.com/?B
 
 2. When you are signed in with your Princeton account, you will see a green Protected label in the top-right corner, indicating greater data protection.
 
+3. Visit the [Copilot FAQ](https://www.microsoft.com/en-us/bing?form=MG0AUO&OCID=MG0AUO#faq).
+
 #### Generative AI and data accuracy
 
 Regardless of the tool or mode, AI responses can be biased, inaccurate, inappropriate, or may contain unauthorized copyrighted information.  Always review, validate, and iterate on responses provided by any Generative AI tool before relying on them or sharing them broadly.
 
+## Hands-On Exercise 1
+
+Imagine that you have a data file in CSV format like this:
+
+```
+timestamp,temperature,length
+1210,3.9,6.5
+1220,3.8,6.4
+1230,3.7,6.4
+1240,3.8,6.9
+```
+
+Use Copilot to generate a Python script that reads in a CSV file and calculates the average of the second column.
