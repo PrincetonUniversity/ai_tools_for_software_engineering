@@ -6,6 +6,7 @@ This guide provides an overview of A.I. tools that can be used toward various as
 
 [Copilot](https://copilot.microsoft.com) - A GenAI chatbot designed for computer code by Microsoft.  
 [ChatGPT](https://chatgpt.com) - A popular GenAI chatbot by OpenAI.  
+[Copilot and ChatGPU Comparison] - Detailed comparison of the two tools.  
 [SWE-agent on GitHub](https://github.com/princeton-nlp/SWE-agent) - Automatically resolve issues in real GitHub repositories.  
 [Tabnine](https://www.tabnine.com) - A commercial A.I. code assistant (secure and reliable).
 
