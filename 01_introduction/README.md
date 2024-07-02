@@ -8,6 +8,16 @@ The figure below shows an overview of the process:
 
 In the figure above, the model is trained on a large amount high-quality code that has been written by hand. The trained model can then be used to solve software engineering problems. For instance, it can be prompted to generate a custom function in the Python programming language.
 
+A.I. tools can be used for:
+
+- code generation  
+- language translation
+- debugging assistance
+- code navigation  
+- writing test code  
+- generating documentation  
+- parallelizing code  
+
 ## Pros and Cons of A.I. versus conventional coding
 
 When should a researcher try to use one of the A.I. tools as opposed to convential methods?
