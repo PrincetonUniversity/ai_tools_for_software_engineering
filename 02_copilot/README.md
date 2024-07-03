@@ -107,3 +107,52 @@ Ask Copilot to create a Python function that performs some simple task. Also hav
 ```
 Write a Python function called remove_large that takes a list of integers and returns the list with all values greater than a threshold value removed. Generate unit tests for the function.
 ```
+
+## Hands-On Exercise 4: Code Translation
+
+1. Use Copilot to conver the MATLAB code below to Python using [CuPy](https://cupy.dev/):
+
+```
+gpu = gpuDevice();
+fprintf('Using a %s GPU.\n', gpu.Name);
+disp(gpuDevice);
+
+X = gpuArray([1 0 2; -1 5 0; 0 3 -9]);
+whos X;
+[U,S,V] = svd(X)
+fprintf('trace(S): %f\n', trace(S))
+quit;
+```
+
+2. Use Copilot to covert the following TensorFlow script to PyTorch:
+
+```
+import tensorflow as tf
+
+mnist = tf.keras.datasets.mnist
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+x_train, x_test = x_train / 255.0, x_test / 255.0
+
+model = tf.keras.Sequential([
+    tf.keras.layers.Flatten(input_shape=(28, 28)),
+    tf.keras.layers.Dense(128, activation='relu'),
+    tf.keras.layers.Dense(10)
+])
+
+model.compile(optimizer='adam',
+              loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+              metrics=['accuracy'])
+
+model.fit(x_train, y_train, epochs=10)
+test_loss, test_acc = model.evaluate(x_test, y_test, verbose=2)
+
+print('\nTest accuracy:', test_acc)
+```
+
+## Hands-On Exercise 5: Increasing Performance
+
+Ask Copilot to rewrite the code below to run faster. You may try specifying a specific approach such as NumPy, Numba or multiprocessing.
+
+```
+
+```
