@@ -99,3 +99,11 @@ TypeError: 'NoneType' object is not iterable
 ```
 
 Ask Copilot if it can spot the bug in the code.
+
+## Hands-On Exercise 3: Unit Testing
+
+Ask Copilot to create a Python function that performs some simple task. Also have it generate unit tests for the code. Here is an example:
+
+```
+Write a Python function called remove_large that takes a list of integers and returns the list with all values greater than a threshold value removed. Generate unit tests for the function.
+```
