@@ -98,7 +98,7 @@ Traceback (most recent call last):
 TypeError: 'NoneType' object is not iterable
 ```
 
-Ask Copilot if it can spot the bug in the code.
+Ask Copilot if it can spot the bug in the code. When entering the prompt, select Shift+Enter to make a line break.
 
 ## Hands-On Exercise 3: Unit Testing
 
