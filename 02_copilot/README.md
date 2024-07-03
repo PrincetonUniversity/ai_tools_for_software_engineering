@@ -32,11 +32,15 @@ To use Copilot, users must sign in to [Copilot](https://copilot.microsoft.com/?B
 
 3. Visit the [Copilot FAQ](https://www.microsoft.com/en-us/bing?form=MG0AUO&OCID=MG0AUO#faq).
 
+[Use Copilot to build a website](https://www.microsoft.com/en-us/bing/do-more-with-ai/build-a-website?form=MA13KP)  
+[Create and test APIs with Copilot](https://www.microsoft.com/en-us/bing/do-more-with-ai/create-and-test-apis?form=MA13KP)  
+[Copilot: AI prompt writing 101](https://www.microsoft.com/en-us/bing/do-more-with-ai/ai-prompt-writing?form=MA13KP)  
+
 #### Generative AI and data accuracy
 
 Regardless of the tool or mode, AI responses can be biased, inaccurate, inappropriate, or may contain unauthorized copyrighted information.  Always review, validate, and iterate on responses provided by any Generative AI tool before relying on them or sharing them broadly.
 
-## Hands-On Exercise 1
+## Hands-On Exercise 1: Simple Code Generation
 
 Imagine that you have a data file in CSV format like this:
 
@@ -49,3 +53,49 @@ timestamp,temperature,length
 ```
 
 Use Copilot to generate a Python script that reads in a CSV file and calculates the average of the second column.
+
+
+## Hands-On Exercise 2: Debugging
+
+Copilot can be used to identify bugs. Consider the code below:
+
+```Python
+"""This script should print a list of non-furniture objects in
+   alphabetical order.""" 
+
+def remove_furniture(items):
+  furniture = {'couch', 'table', 'desk', 'chair'}
+  items_furniture_removed = [item for item in items if item not in furniture]
+  return items_furniture_removed
+
+# input list of items
+items = ['book', 'pencil', 'desk', 'door']
+
+# remove furniture objects from items
+items = remove_furniture(items)
+
+# print remaining items in alphabetical order
+for item in items.sort():
+  print(item)
+```
+
+The author of the code was expecting the following output:
+
+```
+$ python no_furniture.py
+book
+door
+pencil
+```
+
+Instead, the output is:
+
+```
+$ python no_furniture.py 
+Traceback (most recent call last):
+  File "no_furniture.py", line 16, in <module>
+    for item in items.sort():
+TypeError: 'NoneType' object is not iterable
+```
+
+Ask Copilot if it can spot the bug in the code.
