@@ -64,9 +64,9 @@ Copilot can be used to identify bugs. Consider the code below:
    alphabetical order.""" 
 
 def remove_furniture(items):
-  furniture = {'couch', 'table', 'desk', 'chair'}
-  items_furniture_removed = [item for item in items if item not in furniture]
-  return items_furniture_removed
+    furniture = {'couch', 'table', 'desk', 'chair'}
+    items_furniture_removed = [item for item in items if item not in furniture]
+    return items_furniture_removed
 
 # input list of items
 items = ['book', 'pencil', 'desk', 'door']
@@ -76,7 +76,7 @@ items = remove_furniture(items)
 
 # print remaining items in alphabetical order
 for item in items.sort():
-  print(item)
+    print(item)
 ```
 
 The author of the code was expecting the following output:
