@@ -154,5 +154,13 @@ print('\nTest accuracy:', test_acc)
 Ask Copilot to rewrite the code below to run faster. You may try specifying a specific approach such as NumPy, Numba or multiprocessing.
 
 ```
+import random
 
+N = 10000
+
+x = []
+for i in range(N):
+    x.append(random.random())
+
+print(sum(x))
 ```
