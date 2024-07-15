@@ -26,7 +26,7 @@ Learn more about OIT's announcement: [Microsoft Copilot at Princeton University]
 
 To use Copilot, users must sign in to [Copilot](https://copilot.microsoft.com/?BCB=0&showconv=1) with their princeton.edu account using their netID and password.
 
-1. On the [Copilot website](https://copilot.microsoft.com/?BCB=0&showconv=1)), in the top-right corner, select Sign in, then Sign in with a work or school account. Follow the prompts for netID login and Duo two-factor authentication.
+1. On the [Copilot website](https://copilot.microsoft.com/?BCB=0&showconv=1), in the top-right corner, select Sign in, then Sign in with a work or school account. Follow the prompts for netID login and Duo two-factor authentication.
 
 2. When you are signed in with your Princeton account, you will see a green Protected label in the top-right corner, indicating greater data protection.
 
