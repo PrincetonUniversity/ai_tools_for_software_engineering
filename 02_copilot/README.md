@@ -110,7 +110,7 @@ Write a Python function called remove_large that takes a list of integers and re
 
 ## Hands-On Exercise 4: Code Translation
 
-1. Use Copilot to conver the MATLAB code below to Python using [CuPy](https://cupy.dev/):
+1. Use Copilot to convert the MATLAB code below to Python using [CuPy](https://cupy.dev/):
 
 ```
 gpu = gpuDevice();
