@@ -29,6 +29,6 @@ A.I. tools can be used for:
 - In order to evaluate the output of an A.I. model you must know the programming language and maybe research domain. For example, if you do not know Python then do not use A.I. generated Python code since you will not be able to validate it.
 - If you choose to use A.I. generated code then you are responsible for that code. That is, if the code contained a bug then you take responsibility for the bug.
 
-## Responsibility
+## Licensing
 
 For licensing issues regarding the use of A.I. generated code, see [LLMs and code assistants on INTERSECT](https://intersect-training.org/software-licensing/07-collaboration/index.html).
