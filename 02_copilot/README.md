@@ -167,7 +167,7 @@ print(sum(x))
 
 ## Hands-On Exercise 6: Documentation
 
-Ask Copilot to generation a docstring for the following function. Consider also asking it add type hints.
+Ask Copilot to generate a docstring for the following function. Consider also asking it add [type hints](https://www.geeksforgeeks.org/type-hints-in-python/).
 
 ```python
 def remove_furniture(items):
