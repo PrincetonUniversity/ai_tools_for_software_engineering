@@ -112,7 +112,7 @@ Write a Python function called remove_large that takes a list of integers and re
 
 1. Use Copilot to convert the MATLAB code below to Python using [CuPy](https://cupy.dev/):
 
-```
+```matlab
 gpu = gpuDevice();
 fprintf('Using a %s GPU.\n', gpu.Name);
 disp(gpuDevice);
@@ -126,7 +126,7 @@ quit;
 
 2. Use Copilot to covert the following TensorFlow script to PyTorch:
 
-```
+```python
 import tensorflow as tf
 
 mnist = tf.keras.datasets.mnist
@@ -153,7 +153,7 @@ print('\nTest accuracy:', test_acc)
 
 Ask Copilot to rewrite the code below to run faster. You may try specifying a specific approach such as NumPy, Numba or multiprocessing.
 
-```
+```python
 import random
 
 N = 10000
@@ -164,3 +164,15 @@ for i in range(N):
 
 print(sum(x))
 ```
+
+## Hands-On Exercise 6: Documentation
+
+Ask Copilot to generation a docstring for the following function. Consider also asking it add type hints.
+
+```python
+def remove_furniture(items):
+    furniture = {'couch', 'table', 'desk', 'chair'}
+    items_furniture_removed = [item for item in items if item not in furniture]
+    return items_furniture_removed
+```
+
