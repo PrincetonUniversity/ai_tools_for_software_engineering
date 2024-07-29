@@ -4,8 +4,10 @@ Large language models (LLMs) can be trained on a vast number of high-quality cod
 
 The figure below shows an overview of the process:
 
-<img src="https://tigress-web.princeton.edu/~jdh4/overview_llm_swe.png" alt="schematic" width="500"/>
-
+<p align="center">
+<img src="https://tigress-web.princeton.edu/~jdh4/overview_llm_swe.png" alt="schematic" width="600"/>
+</p>
+  
 Credit: Image of transformer by [Shivasish Mahapatra](https://www.linkedin.com/in/shivmahapatra?trk=article-ssr-frontend-pulse_publisher-author-card&originalSubdomain=in).
 
 In the figure above, the model is trained on a large amount high-quality code that has been written by hand. The trained model can then be used to solve software engineering problems. For instance, it can be prompted to generate a custom function in the Python programming language.
@@ -21,18 +23,12 @@ A.I. tools can be used for:
 - parallelizing code
 - IDE integration with code completion
 
-## Pros and Cons of A.I. versus conventional coding
+## Important Points
 
-When should a researcher try to use one of the A.I. tools as opposed to convential methods?
-
-When should a researcher expect to write their own code?
-
-What are the limitations of LLMs for software engineering?
-
-What does the future look like?
+- The A.I. tools are not perfect. Think of their output as a starting point that you will validate and modify as opposed to an immediate final solution.
+- In order to evaluate the output of an A.I. model you must know the language and domain.
+- If you choose to use the A.I. tools then you are responsible for whatever output they generate. That is, if the code contained a bug then it is your fault for using the code.
 
 ## Responsibility
 
-What if a researcher publishes their results using A.I. generated code that has a bug?
-
-## Security
+For licensing issues regarding the use of A.I. generated code, see [LLMs and code assistants on INTERSECT](https://intersect-training.org/software-licensing/07-collaboration/index.html).
