@@ -25,9 +25,9 @@ A.I. tools can be used for:
 
 ## Important Points
 
-- The A.I. tools are not perfect. Think of their output as a starting point that you will validate and modify as opposed to an immediate final solution.
-- In order to evaluate the output of an A.I. model you must know the language and domain.
-- If you choose to use the A.I. tools then you are responsible for whatever output they generate. That is, if the code contained a bug then it is your fault for using the code.
+- The A.I. tools are not perfect. Think of their output as a starting point that you will validate and modify. Do not think of A.I. generated code as an immediate final solution.
+- In order to evaluate the output of an A.I. model you must know the programming language and maybe research domain. For example, if you do not know Python then do not use A.I. generated Python code since you will not be able to validate it.
+- If you choose to use A.I. generated code then you are responsible for that code. That is, if the code contained a bug then you take responsibility for the bug.
 
 ## Responsibility
 
