@@ -176,6 +176,9 @@ def remove_furniture(items):
     return items_furniture_removed
 ```
 
+Certain IDEs like Spyder also have the ability to generate docstrings.
+
+
 ## Parallelizing Code
 
 We saw above how simple Python code for CPUs could be ran on a GPU. Another line of work to be aware of is [automatically parallelizing codes using MPI](https://github.com/Scientific-Computing-Lab-NRCN/MPI-rical).
