@@ -57,7 +57,7 @@ Use Copilot to generate a Python script that reads in a CSV file and calculates 
 
 ## Hands-On Exercise 2: Debugging
 
-Copilot can be used to identify bugs. Consider the code below:
+1. Copilot can be used to identify bugs. Consider the code below:
 
 ```Python
 """This script should print a list of non-furniture objects in
@@ -99,6 +99,23 @@ TypeError: 'NoneType' object is not iterable
 ```
 
 Ask Copilot if it can spot the bug in the code. When entering the prompt, select Shift+Enter to make a line break.
+
+2. On Day 1, we encountered the buggy code below. Can copilot spot the error?
+
+```python
+from math import prod
+
+def add_to_list(*elements, starting_list=[]):
+    starting_list.extend(elements)
+    return starting_list
+
+def sylvester(n):
+    sequence = add_to_list(2)
+    for _ in range(n-1):
+        new_num = 1 + prod(sequence)
+        sequence = add_to_list(new_num, starting_list=sequence)
+    return sequence
+```
 
 ## Hands-On Exercise 3: Unit Testing
 
