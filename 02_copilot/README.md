@@ -100,7 +100,7 @@ TypeError: 'NoneType' object is not iterable
 
 Ask Copilot if it can spot the bug in the code. When entering the prompt, select Shift+Enter to make a line break.
 
-2. On Day 1, we encountered the buggy code below. Can copilot spot the error?
+2. On Day 1, we encountered the buggy code below. Can Copilot spot the error?
 
 ```python
 from math import prod
