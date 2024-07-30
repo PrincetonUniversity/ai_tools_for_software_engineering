@@ -52,7 +52,7 @@ timestamp,temperature,length
 1240,3.8,6.9
 ```
 
-Use Copilot to generate a Python script that reads in a CSV file and calculates the average of the second column.
+Use Copilot to generate a Python script that reads in a CSV file and calculates the average of the second column. When entering the prompt, select Shift+Enter to make a line break.
 
 
 ## Hands-On Exercise 2: Debugging
