@@ -16,4 +16,4 @@ If you encounter any difficulties with this material then please send an email t
 
 ## Authorship
 
-This guide was created by Amit Solomon, Jonathan Halverson and members of the [Research Software Engineering Group](https://researchcomputing.princeton.edu/services/research-software-engineering) of Princeton Research Computing.
+This guide was created by Mattie Niznik, Amit Solomon, Jonathan Halverson and members of the [Research Software Engineering Group](https://researchcomputing.princeton.edu/services/research-software-engineering) of Princeton Research Computing.
