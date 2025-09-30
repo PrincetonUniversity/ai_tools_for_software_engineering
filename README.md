@@ -18,11 +18,11 @@ This guide provides an overview of A.I. tools that can be used toward various as
 
 ### IDEs
 
-[Cursor](https://cursor.com/) - Popular AI IDE
-[Cline](https://cline.bot/) - Integrates into other IDEs like VSCode and JetBrains (PyCharm, etc.)
-[Zed](https://zed.dev/)
-[Windsurf](https://windsurf.com/)
-[Tabnine](https://www.tabnine.com) - A commercial AI code assistant (secure and reliable) previously recommended.
+[Cursor](https://cursor.com/) - Popular AI IDE  
+[Cline](https://cline.bot/) - Integrates into other IDEs like VSCode and JetBrains (PyCharm, etc.)  
+[Zed](https://zed.dev/)  
+[Windsurf](https://windsurf.com/)  
+[Tabnine](https://www.tabnine.com) - A commercial AI code assistant (secure and reliable) previously recommended  
 
 ## Getting Help
 
